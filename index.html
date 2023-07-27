@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão de idade</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="alinhar">
+        <div class="conteudo">
+            <h2 class="cabeca">Classificação por idade</h2>
+            <p class="teste"></p>
+            <label for="data_nascimento">Data de Nascimento:</label>
+            <input type="text" id="nome" placeholder="Insira seu nome">
+            <label for="data_nascimento">Data de Nascimento:</label>
+            <input type="text" id="data_nascimento" placeholder="Insira a sua idade">
+            <div>
+                <p><b>Criança:</b> 0 até 11</p>
+                <p><b>Adolescente:</b> 12 até 20</p>
+                <p><b>Adulto:</b> 21 até 65</p>
+                <p><b>Idoso:</b> 66 até 120</p>
+            </div>
+            <input type="button" value="Avaliar a idade" onclick="verificarNome()">
+
+
+    <div id="resultado"></div>
+        </div>
+    </div>
+
+</body>
+</html>
